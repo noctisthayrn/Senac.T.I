@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Informar_Validade", "Informar_Validade\Informar_Validade.csproj", "{9BA76320-E417-4851-894F-BAB9298BC376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA76320-E417-4851-894F-BAB9298BC376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA76320-E417-4851-894F-BAB9298BC376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA76320-E417-4851-894F-BAB9298BC376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA76320-E417-4851-894F-BAB9298BC376}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F839E4C0-7FE5-41A8-990F-38FBF5C9908E}
+	EndGlobalSection
+EndGlobal
