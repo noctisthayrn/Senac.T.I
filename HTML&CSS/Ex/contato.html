@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position e Float</title>
+
+  <!-- Chamada do CSS no documento HTML -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div id="principal">
+    <div id="topo">
+      <div id="logotipo">
+        <img src="imagens/logo.png" alt="Logotipo">
+      </div>
+
+      <div id="imagem">
+        <img src="imagens/monitor_icon.png" alt="Imagem de um monitor">
+      </div>
+    </div>
+
+    <div id="conteudo">
+      <div id="esquerda">        
+        <ul>
+          <li>
+            <a href="index.html" class="menu">Home</a>
+          </li>
+          <li>
+            <a href="sobre.html" class="menu">Sobre Nós</a>
+          </li>
+          <li>
+            <a href="servicos.html" class="menu">Serviços</a>
+          </li>
+          <li>
+            <a href="portfolio.html" class="menu">Portifólio</a>
+          </li>
+          <li>
+            <a href="contato.html" class="menu">Contato</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="direita">
+        <div id="formulario" class="contato">
+          <div id="contatoborda">
+            <form action="">
+              <label for="nome" class="legenda">Nome:</label>
+              <input type="text" name="nome" class="campo" placeholder="Informe seu nome">
+    
+              <br>
+    
+              <label for="email" class="legenda">E-mail:</label>
+              <input type="email" name="email" class="campo" placeholder="Informe seu e-mail">
+    
+              <br>
+    
+              <label for="mensagem" class="legenda">Mensagem:</label>
+              <textarea name="mensagem" class="texto" placeholder="Digite a mensagem..."></textarea>
+    
+              <br>
+    
+              <input type="submit" value="Enviar" class="botao">
+            </form>
+          </div>
+        </div>
+  
+        <!-- Mapa -->
+        <div id="mapa" class="mapacontado">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9923818932075!2d-47.64816212372772!3d-22.728524531526286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631a09ac7b2e1%3A0x197834b105f878e3!2sSenac%20Piracicaba!5e0!3m2!1spt-BR!2sbr!4v1693953993696!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div id="rodape">
+    &copy; Copyright 2023 - Web Design - Todos os direitos reservados
+  </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+div {
+  height: 50px;
+  background: #ccc;
+  border: 1px solid #222;
+  /* top: 10px;
+  left: 10px; */
+}
+
+/* RELATIVE */
+.relative {
+  background: #222;
+  color: #ccc;
+  height: 50px;
+  position: relative;
+}
+
+.relative-alterado {
+  top: 10px;
+  left: 10px;
+}
+
+/* ABSOLUTE */
+.absolute {
+  width: 100px;
+  height: 30px;
+  background: #f00;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* FIXED */
+html {
+  padding-bottom: 1000px;
+}
+
+.fixed {
+  background: #318;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  position: fixed;
+  top: 20px;
+  left: 100px;
+}
+
+/* STICKY */
+.sticky {
+  width: 70px;
+  height: 70px;
+  background: #7b3;
+  position: sticky;
+  top: 30px;
+  left: 10px;
+}

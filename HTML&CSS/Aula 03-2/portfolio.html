@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Desenvolvendo um site utilizando estruturas de bloco</title>
+
+  <!-- CHAMADA DO CSS NO DOCUMENTO HTML -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  
+  <div id="principal">
+    <!-- INÍCIO DO CABEÇALHO -->
+    <div id="topo">
+      <div id="logotipo">
+        <a href="index.html">
+          <img src="imagens/code.png" alt="Logotipo da empresa CodeDesign">
+        </a>
+      </div>
+
+      <div id="slogan">
+        <p>CodeDesign - Web acessível para todos</p>
+      </div>
+    </div>
+    <!-- FINAL DO CABEÇALHO -->
+
+    <!-- INÍCIO DO MENU -->
+    <div id="menu">
+      <ul>
+        <li>
+          <a href="index.html" class="linkmenu">Home</a>
+        </li>
+
+        <li>
+          <a href="empresa.html" class="linkmenu">Empresa</a>
+        </li>
+
+        <li>
+          <a href="servicos.html" class="linkmenu">Serviços</a>
+        </li>
+
+        <li>
+          <a href="portfolio.html" class="linkmenu">Portfólio</a>
+        </li>
+
+        <li>
+          <a href="contato.html" class="linkmenu">Contato</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/facebook.png" alt="Logotipo do Facebook">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/instagram.png" alt="Logotipo do Instagram">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/whatsapp.png" alt="Logotipo do WhatsApp">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/youtube.png" alt="Logotipo do YouTube">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- FINAL DO MENU -->
+
+    <!-- INÍCIO DO CONTEÚDO -->
+    <div id="conteudo">
+      <div class="cabecalho">
+        <h1>Conheça nosso portfólio:</h1>
+      </div>
+
+      <!-- Imagens Miniatura -->
+      <div id="mini">
+        <a href="galeria/01.jpg" target="galeria">
+          <img src="galeria/mini_01.jpg" alt="Galeria 01">
+        </a>
+
+        <a href="galeria/02.jpg" target="galeria">
+          <img src="galeria/mini_02.jpg" alt="Galeria 02">
+        </a>
+
+        <a href="galeria/03.jpg" target="galeria">
+          <img src="galeria/mini_03.jpg" alt="Galeria 03">
+        </a>
+
+        <a href="galeria/04.jpg" target="galeria">
+          <img src="galeria/mini_04.jpg" alt="Galeria 04">
+        </a>
+
+        <a href="galeria/05.jpg" target="galeria">
+          <img src="galeria/mini_05.jpg" alt="Galeria 05">
+        </a>
+
+        <a href="galeria/06.jpg" target="galeria">
+          <img src="galeria/mini_06.jpg" alt="Galeria 06">
+        </a>
+
+        <a href="galeria/07.jpg" target="galeria">
+          <img src="galeria/mini_07.jpg" alt="Galeria 07">
+        </a>
+
+        <a href="galeria/08.jpg" target="galeria">
+          <img src="galeria/mini_08.jpg" alt="Galeria 08">
+        </a>
+
+        <a href="galeria/09.jpg" target="galeria">
+          <img src="galeria/mini_09.jpg" alt="Galeria 09">
+        </a>
+
+        <a href="galeria/10.jpg" target="galeria">
+          <img src="galeria/mini_10.jpg" alt="Galeria 10">
+        </a>
+      </div>
+
+      <!-- Imagem Maior -->
+      <div id="grande">
+        <iframe src="galeria/01.jpg" frameborder="0" name="galeria"></iframe>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+    <!-- FINAL DO CONTEÚDO -->
+
+    <!-- INÍCIO DO RODAPÉ -->
+    <div id="rodape">
+      <div id="copy">
+        &copy; 2023 - Code Design - Todos os direitos reservados.
+      </div>
+
+      <div id="dev">
+        Desenvolvido por <a href="#">CodeDesign</a>
+      </div>
+    </div>
+    <!-- FINAL DO RODAPÉ -->
+  </div>
+
+</body>
+</html>

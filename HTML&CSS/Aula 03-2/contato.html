@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Desenvolvendo um site utilizando estruturas de bloco</title>
+
+  <!-- CHAMADA DO CSS NO DOCUMENTO HTML -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  
+  <div id="principal">
+    <!-- INÍCIO DO CABEÇALHO -->
+    <div id="topo">
+      <div id="logotipo">
+        <a href="index.html">
+          <img src="imagens/code.png" alt="Logotipo da empresa CodeDesign">
+        </a>
+      </div>
+
+      <div id="slogan">
+        <p>CodeDesign - Web acessível para todos</p>
+      </div>
+    </div>
+    <!-- FINAL DO CABEÇALHO -->
+
+    <!-- INÍCIO DO MENU -->
+    <div id="menu">
+      <ul>
+        <li>
+          <a href="index.html" class="linkmenu">Home</a>
+        </li>
+
+        <li>
+          <a href="empresa.html" class="linkmenu">Empresa</a>
+        </li>
+
+        <li>
+          <a href="servicos.html" class="linkmenu">Serviços</a>
+        </li>
+
+        <li>
+          <a href="portfolio.html" class="linkmenu">Portfólio</a>
+        </li>
+
+        <li>
+          <a href="contato.html" class="linkmenu">Contato</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/facebook.png" alt="Logotipo do Facebook">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/instagram.png" alt="Logotipo do Instagram">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/whatsapp.png" alt="Logotipo do WhatsApp">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="linksocial">
+            <img src="sociais/youtube.png" alt="Logotipo do YouTube">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- FINAL DO MENU -->
+
+    <!-- INÍCIO DO CONTEÚDO -->
+    <div id="conteudo">
+      <div class="cabecalho">
+        <h1>Fale conosco:</h1>
+      </div>
+
+      <!-- Formulário -->
+      <div id="formulario" class="contato">
+        <form action="">
+          <label for="nome" class="legenda">Nome:</label>
+          <input type="text" name="nome" class="campo" placeholder="Informe seu nome">
+
+          <br>
+
+          <label for="email" class="legenda">E-mail:</label>
+          <input type="email" name="email" class="campo" placeholder="Informe seu e-mail">
+
+          <br>
+
+          <label for="mensagem" class="legenda">Mensagem:</label>
+          <textarea name="mensagem" class="texto" placeholder="Digite a sua mensagem"></textarea>
+
+          <br>
+
+          <input type="submit" value="Enviar" class="botao">
+        </form>
+      </div>
+
+      <!-- Mapa -->
+      <div id="mapa" class="contato">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9923818932075!2d-47.64816212372772!3d-22.728524531526286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631a09ac7b2e1%3A0x197834b105f878e3!2sSenac%20Piracicaba!5e0!3m2!1spt-BR!2sbr!4v1693953993696!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+    <!-- FINAL DO CONTEÚDO -->
+
+    <!-- INÍCIO DO RODAPÉ -->
+    <div id="rodape">
+      <div id="copy">
+        &copy; 2023 - Code Design - Todos os direitos reservados.
+      </div>
+
+      <div id="dev">
+        Desenvolvido por <a href="#">CodeDesign</a>
+      </div>
+    </div>
+    <!-- FINAL DO RODAPÉ -->
+  </div>
+
+</body>
+</html>
