@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(35,35,35);
+}
+
+#principal {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#topo {
+    width: 1200px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#logotipo {
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+
+#logotipo img {
+    width: 200px;
+    height: 80px;
+}
+
+#menu {
+    width: 680px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu ul li{
+    float: left;
+    list-style: none;
+}
+
+a.linkmenu:link, a.linkmenu:visited {
+   width: 120px;
+   height: 80px;
+   display: block;
+   float: left;
+   text-decoration: none;
+   line-height: 80px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 16px;
+   color: rgb(255,245,0);
+}
+
+#sociais {
+    width: 300px;
+    height: 80px;
+    float: left;
+}
+
+#facebook img, #instagram img, #youtube img {
+    float: left;
+}
+
+#facebook img, #youtube img {
+    height: 50px;
+}
+
+#facebook img, #instagram img {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+#instagram img, #youtube img {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#destaque {
+    width: 890px;
+    height: 150px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#itemdestaque {
+    width: 580px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+#itemdestaque img {
+    width: 580px;
+    height: 150px;
+}
+
+#calltoaction {
+    width: 300px;
+    height: 150px;
+    float: left;
+    color: rgb(255,245,0);
+}
+
+a.button:link, a.button:visited {
+    color: rgb(255,245,0);
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+#publicidade {
+    width: 300px;
+    height: 150px;
+    float: left;
+}
+
+#publicidade img {
+    width: 300px;
+    height: 150px;
+}
+
+#conteudo {
+    width: 890px;
+    height: 450px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#artigoprincipal {
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+
+#artigoprincipal img {
+    width: 300px;
+    height: 450px;
+}
+
+#outrosartigos {
+    width: 580px;
+    height: 450px;
+    float: left;
+    margin-left: 10px;
+}
+
+#outrosartigos img {
+    width: 290px;
+    height: 225px;
+    float: left;
+}
+
+#lateral {
+    width: 300px;
+    height: 450px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#lateral ul li {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+a.lateralmenu:link, a.lateralmenu:visited {
+    color: rgb(255,245,0);
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+#rodape {
+    width: 1200px;
+    height: 50px;
+    color: rgb(255,245,0);
+}
+
+#copy {
+    width: 595px;
+    height: 50px;
+    float: left;
+    margin-right: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#dev {
+    width: 595px;
+    height: 50px;
+    float: left;
+    margin-right: 5px;
+}
+
+a.deve:link, a.deve:visited {
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(255,245,0);
+    text-decoration: none;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
