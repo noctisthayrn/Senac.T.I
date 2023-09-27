@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: url(imagens/bbg.jpg) center top no-repeat fixed;
+    /* é pra cobrir todo o body sem deixar parte branca */
+    background-size: cover;
+}
+
+ul {
+ margin: 0;
+ padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* classes gerais */
+.amarelo {
+    color: #ffcf17;
+}
+.vermelho {
+    color: #ff6277;
+}
+
+.bgverde {
+background: #00dfa8;
+} 
+.bglaranja {
+    background: #ff7757;
+}
+.bgroxo {
+    background: #ab7bc5;
+}
+.bgvermelho {
+    background: #ff6277;
+}
+.bgamarelo {
+    background: #ffcf17;
+}
+
+/* home */
+#principal {
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#topo {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+
+#logotipo {
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#logotipo span {
+    font-size: 25px;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+}
+
+#navegacao {
+    display: none;
+}
+
+#menumobile {
+    width: 90%;
+    height: 40px;
+    margin: 10px auto 0;
+    display: block;
+    background: #333;
+    color: #ffff;
+}
+
+#subitems {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.itemslista {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center;
+}
+
+.itemslista span {
+display: none;
+}
+
+#conteudo {
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#conteudo h1 {
+    text-transform: uppercase;
+}
+
+.botao:link, .botao:visited {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    /* se adequa no centro */
+    width: fit-content;
+}
+
+#destaque {
+    width: 100%;
+    height: 300px;
+    background: #42c5ed url(imagens/background-01.jpg) center no-repeat;
+    background-size: cover; /* cover cobre toda a area */
+    background-blend-mode: overlay;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /*pra ficar em coluna*/
+    justify-content: center;
+}
+
+#infos{
+    width: 100%;
+    min-height: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #282828 url(imagens/background-02.jpg)center no-repeat;
+    background-size: cover;
+    /* por a cor ensina da img */
+    background-blend-mode: overlay;
+}
+#infos h3 {
+    color: white;
+    /* deixa as promeiras letras em maiusculo */
+    text-transform: capitalize;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Padrão, iPhone Retina */
+@media (min-width: 320px) {
+
+.saibamais i, a {
+    color: blue;
+}
+
+.saibamais p {
+    color: grey;
+}
+
+#branco  {
+    color: blue;
+}
+
+#phon i, a {
+    color: grey;
+}
+
+#nav a {
+    color: blue;
+}
+
+#linksrpd h3 {
+    color: white;
+}
+
+.social i {
+    color: grey;
+}
+
+#sociais {
+    column-count: 6;
+}
+#contato {
+    display: flex;
+} 
+
+.btn-enviar {
+    background-color: blue;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+#finalrodape {
+    display: flex;
+    background-color: white;
+}
+
+#dev {
+    margin-left: 50px;
+    padding: 10px;
+}
+
+}
+
+
+/* Dispositivos Pequenos, Smartphones */
+@media (min-width: 375px) {}
+
+/* Dispositivos Pequenos, Smartphones */
+@media (min-width: 426px) {
+    #botoes {
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Dispositivos Pequenos (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) {
+   
+}
+
+/* Dispositivos Pequenos, Tablets */
+@media (min-width: 768px) {
+    .itemslista span {
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+
+    #subitems{
+        height: 150px;
+    }
+
+}
+
+/* Dispositivos Médios, Desktops */
+@media (min-width: 992px) {
+    #topo {
+        padding-top: 0;
+        display: flex;
+    }
+
+    #logotipo{
+        width: 20%;
+        text-align: left;
+        line-height: 100px;
+    }
+
+    #menumobile {
+        display: none;
+    }
+
+    #menu {
+        width: 80%;
+        height: 100px;
+    }
+
+    #navegacao {
+        height: 100px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    #navegacao li {
+        margin-left: 25px;
+        text-transform: uppercase;
+    }
+
+    .linkmenu:link, .linkmenu:visited {
+        color: #ffff; 
+    }
+
+    .linkmenu:hover, .linkmenu:active {
+        color: #009af8;
+    }
+
+    #conteudo {
+        display: flex;
+        padding: 30px 20px;
+    }
+
+    #imagemconteudo {
+        width: 40%;
+        margin-right: 25px;
+    }
+
+    #textoconteudo {
+        width: 60%;
+    }
+
+    .botao:link, .botao:visited {
+        margin: 10px 0 0;
+    }
+}
+
+/* Dispositivos Grandes, Telas Amplas */
+@media (min-width: 1200px) {
+    #principal {
+        width: 1200px;
+    }
+
+    #subitems {
+        height: 280px;
+    }
+
+    #textoconteudo {
+        width: 50%;
+    }
+
+    #infos {
+        display: flex;
+        padding: 30px;
+    }
+
+    .saibamais {
+    width: 25%;
+        padding: 35px;
+    }
+
+    #copy {
+        padding: 10px;
+    }
+
+    #dev {
+        margin-left: 450px;
+        padding: 10px;
+    }
+
+    .btn-enviar {
+        background-color: blue;
+        color: white;
+        margin-top: 5px;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+
+    .social i {
+        margin-top: 25px;
+    }
+}
